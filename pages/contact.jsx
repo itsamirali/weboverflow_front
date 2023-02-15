@@ -35,9 +35,9 @@ const ContactPage = () => {
         or call 281.782.9819 and we can get started.
       </p>
       <p className="my-4">We’re looking forward to hearing from you.</p>
-      <div className="w-100 d-flex align-items-center justify-content-center mt-4">
+      <div className="w-100 d-flex flex-column flex-md-row align-items-center justify-content-center mt-4">
         <input
-          className="w-100 d-flex form-control me-md-4"
+          className="w-100 d-flex form-control me-md-4 mb-4 mb-md-0"
           placeholder="full name"
           value={name}
           onChange={(e) => setName(e.target.value)}
