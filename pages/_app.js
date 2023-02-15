@@ -88,6 +88,7 @@ function MyApp({ Component, pageProps }) {
           </nav>
         </div>
       </div>
+      <div className="navbarSpacer d-flex"></div>
       <Component {...pageProps} />
       <footer className="w-100">
         <div className="container d-flex align-items-center justify-content-between">

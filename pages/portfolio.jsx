@@ -14,7 +14,7 @@ import cx from "classnames";
 const PortfolioPage = () => {
   return (
     <div className="container">
-      <div className="navbarSpacer d-flex"></div>
+      {/* <div className="navbarSpacer d-flex"></div> */}
       <h1>Awesome clients. Many industries.</h1>
       <p className="my-4">Here are a few of our recent clients.</p>
       <p className="my-4">
@@ -23,7 +23,12 @@ const PortfolioPage = () => {
         immediately, you can call or text us at 281-782-9819 so we can help you
         right away.
       </p>
-      <div className="d-flex align-items-start justify-content-center mt-5 pt-5">
+      <div
+        className={
+          (styles.portWrapper,
+          "d-flex flex-column flex-lg-row align-items-start justify-content-center mt-5 pt-md-5")
+        }
+      >
         <div
           className={cx(
             styles.portInfo,
@@ -46,10 +51,25 @@ const PortfolioPage = () => {
             <li>Online Shopping Solution</li>
           </ol>
         </div>
-        <Image src={port1} height={300} alt="About Our Client" />
+        <Image
+          className={cx(styles.portWrapperImg)}
+          src={port1}
+          height={300}
+          alt="About Our Client"
+        />
       </div>
-      <div className="d-flex align-items-start justify-content-center mt-5 pt-5">
-        <Image src={port2} height={300} alt="About Our Client" />
+      <div
+        className={
+          (styles.portWrapper,
+          "d-flex flex-column flex-lg-row align-items-start justify-content-center mt-5 pt-md-5")
+        }
+      >
+        <Image
+          className={cx(styles.portWrapperImg)}
+          src={port2}
+          height={300}
+          alt="About Our Client"
+        />
         <div
           className={cx(
             styles.portInfo,
@@ -71,7 +91,12 @@ const PortfolioPage = () => {
           </ol>
         </div>
       </div>
-      <div className="d-flex align-items-start justify-content-center mt-5 pt-5">
+      <div
+        className={
+          (styles.portWrapper,
+          "d-flex flex-column flex-lg-row align-items-start justify-content-center mt-5 pt-md-5")
+        }
+      >
         <div
           className={cx(
             styles.portInfo,
@@ -94,10 +119,25 @@ const PortfolioPage = () => {
             <li>WordPress Online Shop</li>
           </ol>
         </div>
-        <Image src={port3} height={300} alt="About Our Client" />
+        <Image
+          className={cx(styles.portWrapperImg)}
+          src={port3}
+          height={300}
+          alt="About Our Client"
+        />
       </div>
-      <div className="d-flex align-items-start justify-content-center mt-5 pt-5">
-        <Image src={port4} height={300} alt="About Our Client" />
+      <div
+        className={
+          (styles.portWrapper,
+          "d-flex flex-column flex-lg-row align-items-start justify-content-center mt-5 pt-md-5")
+        }
+      >
+        <Image
+          className={cx(styles.portWrapperImg)}
+          src={port4}
+          height={300}
+          alt="About Our Client"
+        />
         <div
           className={cx(
             styles.portInfo,
@@ -121,7 +161,12 @@ const PortfolioPage = () => {
           </ol>
         </div>
       </div>
-      <div className="d-flex align-items-start justify-content-center mt-5 pt-5">
+      <div
+        className={
+          (styles.portWrapper,
+          "d-flex flex-column flex-lg-row align-items-start justify-content-center mt-5 pt-md-5")
+        }
+      >
         <div
           className={cx(
             styles.portInfo,
@@ -143,10 +188,25 @@ const PortfolioPage = () => {
             <li>Maintenance & Upgrades</li>
           </ol>
         </div>
-        <Image src={port5} height={300} alt="About Our Client" />
+        <Image
+          className={cx(styles.portWrapperImg)}
+          src={port5}
+          height={300}
+          alt="About Our Client"
+        />
       </div>
-      <div className="d-flex align-items-start justify-content-center mt-5 pt-5">
-        <Image src={port6} height={300} alt="About Our Client" />
+      <div
+        className={
+          (styles.portWrapper,
+          "d-flex flex-column flex-lg-row align-items-start justify-content-center mt-5 pt-md-5")
+        }
+      >
+        <Image
+          className={cx(styles.portWrapperImg)}
+          src={port6}
+          height={300}
+          alt="About Our Client"
+        />
         <div
           className={cx(
             styles.portInfo,
