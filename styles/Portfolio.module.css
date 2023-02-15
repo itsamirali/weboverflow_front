@@ -1,0 +1,8 @@
+.portInfo {
+  width: 30% !important;
+}
+@media (max-width: 768px) {
+  .portInfo {
+    width: 100% !important;
+  }
+}
